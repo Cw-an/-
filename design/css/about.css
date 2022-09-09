@@ -1,0 +1,23 @@
+nav a:last-child {
+  color: #fff;
+  background-color: #e08baf;
+}
+
+.info {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 0.5em;
+  margin-top: 5em;
+}
+
+.info > h2 {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  padding-bottom: 0.5em;
+}
+
+.info > p {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1em;
+}

@@ -1,0 +1,62 @@
+nav a:nth-child(2) {
+  color: #fff;
+  background-color: #e08baf;
+}
+
+main {
+  min-width: 97vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+
+figure {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+  transition: all 0.5s ease-in-out;
+  flex-shrink: 0;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+figure:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  transform: scale(1.05);
+}
+
+.main-middle {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.main-middle::-webkit-scrollbar {
+  display: none;
+}
+
+.five-card {
+  display: flex;
+}
